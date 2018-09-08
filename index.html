@@ -12,8 +12,8 @@
   </head>
 
 <body class="bg-dark text-white ">
-  <header class="bg-secondary text-center p-3 mb-5">
-    <h1>KeyBeater</h1>
+  <header class="bg-secondary text-center p-2 mb-5">
+    <h1><i class="fas fa-angle-double-right"></i> KeyBeater <i class="fas fa-angle-double-left"></i></h1>
   </header>
   <div class="container text-center">
 
@@ -34,7 +34,7 @@
 
               <div class="col">
                 <div class="form-group">
-                  <label for="selLang"><i class="fas fa-globe-asia"></i> Word Language Pool</label>
+                  <label for="selLang"><i class="fas fa-globe-asia"></i> Language Pool</label>
                   <select class="form-control" id="selLang">
                     <option>English</option>
                     <option>Türkçe</option>
@@ -52,23 +52,24 @@
         <!-- Time & Score Columns -->
         <div class="row mt-5">
           <div class="col-md-6">
-            <h3><i class="fas fa-clock"></i> Remaining Time:
-              <span id="time">0</span> 
+            <h3>Remaining Time<br/>
+              <i class="fas fa-clock"> </i><span id="time">0</span> 
             </h3>
           </div>
           <div class="col-md-6">
-            <h3><i class="fas fa-star"></i> Score:
-              <span id="score">0</span>
+            <h3>Current Score<br/>
+              <i class="fas fa-star"> </i> <span id="score">0</span>
             </h3>
           </div>
         </div>
 
         <!-- Instructions -->
-        <div class="row mt-5">
+        <div class="row mt-5 mb-5">
           <div class="col-md-12">
             <div class="card card-body bg-secondary text-white">
               <h5><i class="fas fa-info-circle"></i> Instructions</h5>
-              <p>Type the given word in time. <br />SGet to know how good you are at typing with your keyboard. <br/>If you fail, just type the word and start again. <br />Good luck!</p>
+              <p>Type the given word in time.</p>
+              <p>Get to know how good you are at typing with your keyboard. <br/>If you fail, just type the word and start again. <br />Good luck!</p>
             </div>
           </div>
         </div>
