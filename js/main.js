@@ -17,7 +17,7 @@ xmlhttp.onreadystatechange = function() {
         words = text.split("\n");
     }
 }
-xmlhttp.open("GET", "/wordpool/english.txt", true);
+xmlhttp.open("GET", "wordpool/english.txt", true);
 xmlhttp.send();
 
 let time = currentLevel;
@@ -72,7 +72,7 @@ function setLanguage() {
     var selectedLang = document.getElementById("selLang");
     if(selectedLang.value == "Türkçe")
     {
-    xmlhttp.open("GET", "/wordpool/turkce.txt", true);
+    xmlhttp.open("GET", "wordpool/turkce.txt", true);
     xmlhttp.send();
     words = currentWord.innerHTML;
     currentWord.innerHTML= words; 
